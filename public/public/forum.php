@@ -1,0 +1,1 @@
+<?php // forum.php logic placeholder ?>

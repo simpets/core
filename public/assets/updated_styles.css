@@ -1,0 +1,78 @@
+/* Simpets Woodsy Theme */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: url('wood-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #2c2c2c;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #8b5c3e;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #3b2e2e;
+    margin: 0;
+}
+
+h2, h3 {
+    color: #3b2e2e;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 2px solid #8b5c3e;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #5a3e2b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #8b5c3e;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    background: rgba(255,255,255,0.95);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+}
+
+.card {
+    background: #fffdf9;
+    border: 1px solid #d4b895;
+    border-radius: 8px;
+    margin: 15px 0;
+    padding: 15px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+button, input[type="submit"] {
+    background-color: #6b4f3b;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #8b5c3e;
+}

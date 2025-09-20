@@ -1,0 +1,1 @@
+<?php // adopt.php logic placeholder ?>

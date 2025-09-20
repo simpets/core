@@ -1,0 +1,68 @@
+
+WELCOME TO THE SIMPETS SYSTEM!
+
+The following are the Installation instructions for the SS.
+
+Please follow them carefully.
+
+
+The DEFAULT user Admin name is ADMIN and your PASSWORD is 2020aaaa.
+
+Be sure to request a password change AFTER you have changed the site url only, in forgot_password.php!
+
+
+Please do NOT remove or alter the footer section that says Simpets System. But you may add your own footer alongside to this. You are allowed to make any changes or add any modifications to the script as long as you follow this one rule.
+
+
+1.  In your Cpanel, create a new Database and Database user, take note of the username and password.
+
+2.  Import the SS SQL file.
+
+3.  In File Manager, upload the SS INSTALL zip and extract to whatever directory you will be using.
+
+4.  Go to includes/db.php and config/config.php and change the your_database and the rest of the defaults to your own, including the subdirectory / if that's needed.
+
+5.  Go to the forums table in PhpMyadmin and add some forums in - and then if needed, some threads as well. Posts should be able to be added on the forums themselves. The forums name can be changed in /forums/_common.php.
+
+6.  Modify the index.php to your liking, as well as the following pages (not neccesarily a complete list) :
+
+
+
+forgot_password.php  (do this one first! change out the url)
+
+Check for currency changes needed in:
+
+buy_item.php
+buy_pet.php
+use_item.php
+profile.php
+gem_quest.php
+pet_quest.php
+quizgame.php
+boost_pet.php
+adventure.php
+
+battle & sparring
+
+/adventure
+
+
+Check for url/site changes needed in:
+
+
+menu.php
+
+
+7.  UPDATE the FAQ to your liking!~
+
+8.  Create and upload your Pet images to /images, /image/bases, /images/base and /base.
+
+    MARKINGS go into /images/markings.
+    
+    REMEMBER if you are using the default breeding system, all pet images MUST match exactly in size and shape, and their species must match in breeding too!
+    
+
+
+
+
+

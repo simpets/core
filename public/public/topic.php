@@ -1,0 +1,1 @@
+<?php // topic.php logic placeholder ?>

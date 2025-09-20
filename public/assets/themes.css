@@ -1,0 +1,54 @@
+body.theme-default {
+  background: url('../assets/wood-bg.jpg') repeat;
+  color: #333;
+}
+
+body.theme-forest {
+  background: url('../assets/theme-forest.png') center/cover no-repeat fixed;
+  color: #2d3a2e;
+}
+
+body.theme-ocean {
+  background: url('../assets/theme-ocean.png') center/cover no-repeat fixed;
+  color: #02475e;
+}
+
+body.theme-moon {
+  background: url('../assets/theme-moon.png') center/cover no-repeat fixed;
+  color: #2c2f33;
+}
+
+body.theme-rose {
+  background: url('../assets/theme-rose.png') center/cover no-repeat fixed;
+  color: #4a1c2e;
+}
+
+
+
+body.theme-rainbow {
+  background: url('../assets/theme-rainbow.png') center/cover no-repeat fixed;
+  color: #4a1c2e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Keep your text readable */
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}

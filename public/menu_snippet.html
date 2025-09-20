@@ -1,0 +1,19 @@
+<header><h1>Simpets</h1></header>
+<nav>
+  <a href="dashboard.php">Dashboard</a> |
+  <a href="adopt.php">Adopt</a> |
+  <a href="breed.php">Breed</a> |
+  <a href="customize.php">Customize</a> |
+  <a href="shop_background.php">Background Bin</a> |
+  <a href="shop_petstore.php">Petstore</a> |
+  <a href="shop_general.php">General Store</a> |
+  <a href="inventory.php">Inventory</a> |
+  <a href="forum.php">Forum</a> |
+  <a href="members.php">Members</a> |
+  <a href="profile.php">My Profile</a> |
+  <a href="petdex.php">Petdex</a>
+  <?php if (isset($_SESSION['username']) && $_SESSION['username'] === 'admin'): ?>
+    | <a href="admin.php">Admin</a>
+  <?php endif; ?>
+  | <a href="logout.php">Logout</a>
+</nav>

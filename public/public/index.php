@@ -1,0 +1,2 @@
+<?php session_start(); if (isset($_SESSION['user_id'])) { header('Location: dashboard.php'); exit; } ?>
+<!DOCTYPE html><html><head><title>PetSim</title><link rel='stylesheet' href='/assets/styles.css'></head><body><h1>Welcome to PetSim</h1><p><a href='login.php'>Login</a> | <a href='register.php'>Register</a></p></body></html>
